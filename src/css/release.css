@@ -1,0 +1,2698 @@
+*, :before, :after {
+    box-sizing: border-box
+}
+
+body {
+    -webkit-font-smoothing: antialiased
+}
+
+textarea:focus-visible {
+    outline: none
+}
+
+button {
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    -webkit-appearance: none
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+a {
+    color: inherit;
+    -webkit-text-decoration: inherit;
+    text-decoration: inherit
+}
+
+input {
+    font: inherit;
+    background-color: inherit;
+    border: none;
+    outline: none
+}
+
+button {
+    font: inherit;
+    background: 0 0;
+    background-color: inherit;
+    color: inherit;
+    border-style: none;
+    width: auto;
+    line-height: normal;
+    overflow: visible
+}
+
+textarea, select {
+    font: inherit;
+    background-color: inherit
+}
+
+img, picture, video, canvas, svg {
+    display: block
+}
+
+[data-reaction-click] {
+    cursor: pointer
+}
+
+[data-visible=false] {
+    display: none !important
+}
+
+.before-hidden:before, .after-hidden:after {
+    display: none
+}
+
+.before-visible:before, .after-visible:after {
+    content: ""
+}
+
+::placeholder {
+    color: inherit;
+    opacity: .54
+}
+
+body * {
+    scrollbar-width: none
+}
+
+body ::-webkit-scrollbar {
+    display: none
+}
+
+[name=honey-pot-field] {
+    display: none !important
+}
+
+.text {
+    white-space: pre-wrap;
+    overflow-wrap: break-word
+}
+
+.pointer-events-none {
+    pointer-events: none
+}
+
+#_ {
+    background-color: #fff;
+    min-height: 100vh;
+    display: grid
+}
+
+#_0 {
+    background-color: #fff;
+    border-radius: 0;
+    width: 1920px;
+    min-width: 1920px;
+    max-width: 1920px;
+    min-height: 2272px;
+    max-height: 2272px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden
+}
+
+#_1 {
+    --f2w-order: 0;
+    width: 1920px;
+    height: 2272px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#_32_185 {
+    text-align: justify;
+    letter-spacing: .1px;
+    color: #000;
+    --f2w-order: 1;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: 1490px;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    display: inline;
+    position: absolute;
+    top: 823px;
+    left: calc(50% - 745px)
+}
+
+#__0 {
+    letter-spacing: .1px;
+    color: #000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%
+}
+
+#_2 {
+    --f2w-order: 2;
+    width: 1530px;
+    height: 39px;
+    position: absolute;
+    top: 764px;
+    left: 195px
+}
+
+#_32_187 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #787a96;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 728px)
+}
+
+#__11 {
+    letter-spacing: .1px;
+    color: #787a96;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500
+}
+
+#_32_188 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #000;
+    --f2w-order: 1;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 551px)
+}
+
+#__12 {
+    letter-spacing: .1px;
+    color: #000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500
+}
+
+#Line_152 {
+    --f2w-order: 2;
+    transform-origin: 0 0;
+    border: 0 solid #c5c5c5;
+    border-top-width: 1px;
+    width: 1530px;
+    height: 1px;
+    position: absolute;
+    top: 38px;
+    left: 0
+}
+
+#Rectangle_12586 {
+    --f2w-order: 3;
+    background-color: #787a96;
+    border-radius: 0;
+    width: 77px;
+    height: 1px;
+    position: absolute;
+    top: 24px;
+    left: 37px
+}
+
+#_3 {
+    grid-column-gap: 10px;
+    --f2w-order: 3;
+    background-color: #787a96;
+    border-radius: 15px;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    display: flex;
+    position: absolute;
+    top: 528px;
+    left: calc(62.5% - 41px)
+}
+
+#_32_192 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #fff;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    flex-shrink: 0;
+    width: max-content;
+    margin: 0;
+    font-family: TT Norms Pro;
+    font-size: 24px;
+    font-weight: 500;
+    display: inline;
+    position: relative
+}
+
+#__13 {
+    letter-spacing: .1px;
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 24px;
+    font-weight: 500
+}
+
+#_4 {
+    grid-column-gap: 10px;
+    --f2w-order: 4;
+    background-color: #212346;
+    border-radius: 15px;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    display: flex;
+    position: absolute;
+    top: 528px;
+    left: calc(54.2% - 70px)
+}
+
+#_32_194 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #fff;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    flex-shrink: 0;
+    width: max-content;
+    margin: 0;
+    font-family: TT Norms Pro;
+    font-size: 24px;
+    font-weight: 500;
+    display: inline;
+    position: relative
+}
+
+#__14 {
+    letter-spacing: .1px;
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 24px;
+    font-weight: 500
+}
+
+#_5 {
+    --f2w-order: 5;
+    width: 464px;
+    height: 294px;
+    position: absolute;
+    top: 214px;
+    left: 970px
+}
+
+#_32_196 {
+    text-align: left;
+    letter-spacing: .2px;
+    color: #000;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 40px;
+    font-weight: 700;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 232px)
+}
+
+#__15 {
+    letter-spacing: .2px;
+    color: #000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 40px;
+    font-weight: 700
+}
+
+#_32_197 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #000;
+    --f2w-order: 1;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline;
+    position: absolute;
+    top: 68px;
+    left: calc(50% - 232px)
+}
+
+#__16 {
+    letter-spacing: .1px;
+    color: #000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 14px;
+    font-weight: 400
+}
+
+#_32_198 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #000;
+    --f2w-order: 2;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline;
+    position: absolute;
+    top: 130px;
+    left: calc(50% - 182px)
+}
+
+#__17 {
+    letter-spacing: .1px;
+    color: #000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 400
+}
+
+#free_icon_font_truck_arrow_right_14703178_1 {
+    --f2w-order: 3;
+    border-radius: 0;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 125px;
+    left: 0;
+    overflow: hidden
+}
+
+#Vector {
+    --f2w-order: 0;
+    width: 100%;
+    height: 93.3%;
+    position: absolute;
+    inset: 4.2% .7% 2.5% -.7%
+}
+
+#whats_app {
+    --f2w-order: 4;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 175px;
+    left: 0
+}
+
+#_32_206 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #787a96;
+    --f2w-order: 5;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    top: 180.5px;
+    left: 40px
+}
+
+#__18 {
+    letter-spacing: .1px;
+    color: #787a96;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500
+}
+
+#Line_189 {
+    --f2w-order: 6;
+    border: 0 solid #787a96;
+    border-top-width: 1px;
+    width: 98px;
+    height: 1px;
+    position: absolute;
+    top: 197px;
+    left: 40px
+}
+
+#Line_190 {
+    --f2w-order: 7;
+    transform-origin: 0 0;
+    border: 0 solid #787a96;
+    border-top-width: 1px;
+    width: 18px;
+    height: 1px;
+    position: absolute;
+    top: 197px;
+    left: 151px
+}
+
+#Line_191 {
+    --f2w-order: 8;
+    border: 0 solid #787a96;
+    border-top-width: 1px;
+    width: 5px;
+    height: 1px;
+    position: absolute;
+    top: 197px;
+    left: 175px
+}
+
+#_32_210 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #000;
+    --f2w-order: 9;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 24px;
+    font-weight: 700;
+    display: inline;
+    position: absolute;
+    top: 265px;
+    left: 0
+}
+
+#__19 {
+    letter-spacing: .1px;
+    color: #000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 24px;
+    font-weight: 700
+}
+
+#free_icon_font_ruble_sign_7661537_1 {
+    --f2w-order: 10;
+    border-radius: 0;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 270px;
+    left: 98px;
+    overflow: hidden
+}
+
+#Vector_0 {
+    --f2w-order: 0;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    inset: -3.5% 1.7% 3.5% 8.3%
+}
+
+#_6 {
+    --f2w-order: 6;
+    filter: drop-shadow(0 4px 20px #00000026);
+    background-color: #fff;
+    border-radius: 15px;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 214px;
+    left: calc(35px + 8.3%)
+}
+
+#image_51 {
+    --f2w-order: 0;
+    border-radius: 0;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+    overflow: hidden
+}
+
+#__20 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0
+}
+
+#free_icon_font_arrow_small_right_10513361_2 {
+    --f2w-order: 1;
+    border-radius: 0;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 235px;
+    right: 30px;
+    overflow: hidden
+}
+
+#Vector_1 {
+    --f2w-order: 0;
+    width: 60%;
+    height: 53.3%;
+    position: absolute;
+    inset: 24.2% 20.8% 22.5% 19.2%
+}
+
+#free_icon_font_arrow_small_right_10513361_3 {
+    --f2w-order: 2;
+    transform-origin: 0 0;
+    border-radius: 0;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 265px;
+    left: 60px;
+    overflow: hidden;
+    transform: rotate(-180deg)
+}
+
+#Vector_2 {
+    --f2w-order: 0;
+    transform-origin: 0 0;
+    width: 60%;
+    height: 53.3%;
+    position: absolute;
+    inset: 75.8% -40.8% -29.2% 80.8%;
+    transform: rotate(180deg)
+}
+
+#_7 {
+    --f2w-order: 7;
+    width: 401px;
+    height: 17px;
+    position: absolute;
+    top: 177px;
+    left: calc(35px + 8.3%)
+}
+
+#_32_220 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #0003;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 83px
+}
+
+#__21 {
+    letter-spacing: .1px;
+    color: #0003;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 14px;
+    font-weight: 500
+}
+
+#_32_221 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #0003;
+    --f2w-order: 1;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 242px
+}
+
+#__22 {
+    letter-spacing: .1px;
+    color: #0003;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 14px;
+    font-weight: 500
+}
+
+#_32_222 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #0003;
+    --f2w-order: 2;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 65px
+}
+
+#__23 {
+    letter-spacing: .1px;
+    color: #0003;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 14px;
+    font-weight: 500
+}
+
+#_32_223 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #0003;
+    --f2w-order: 3;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 224px
+}
+
+#__24 {
+    letter-spacing: .1px;
+    color: #0003;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 14px;
+    font-weight: 500
+}
+
+#_32_224 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #0003;
+    --f2w-order: 4;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#__25 {
+    letter-spacing: .1px;
+    color: #0003;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 14px;
+    font-weight: 500
+}
+
+#_7_0 {
+    --f2w-order: 8;
+    width: 1920px;
+    height: 200px;
+    position: absolute;
+    top: 2072px;
+    left: 0
+}
+
+#_8 {
+    --f2w-order: 0;
+    background-color: #1b1b1b;
+    border-radius: 0;
+    width: 1920px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#_9 {
+    --f2w-order: 1;
+    border-radius: 0;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 76px;
+    left: 1677px;
+    overflow: hidden
+}
+
+#Vector_3 {
+    --f2w-order: 0;
+    width: 48px;
+    height: 34px;
+    position: absolute;
+    top: calc(50% - 17px);
+    left: calc(50% - 24.1px)
+}
+
+#_10 {
+    --f2w-order: 2;
+    border-radius: 0;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 76px;
+    left: 1589px;
+    overflow: hidden
+}
+
+#Vector_4 {
+    --f2w-order: 0;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: calc(50% - 24px);
+    left: calc(50% - 24px)
+}
+
+#_11 {
+    --f2w-order: 3;
+    border-radius: 0;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 76px;
+    left: 1501px;
+    overflow: hidden
+}
+
+#Vector_5 {
+    --f2w-order: 0;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: calc(50% - 24px);
+    left: calc(50% - 24px)
+}
+
+#_12 {
+    --f2w-order: 4;
+    width: 782px;
+    height: 110px;
+    position: absolute;
+    top: 45px;
+    left: 569px
+}
+
+#Group_668 {
+    --f2w-order: 0;
+    width: 144px;
+    height: 110px;
+    position: absolute;
+    top: 0;
+    left: 229px
+}
+
+#_32_385 {
+    text-align: left;
+    color: #ffffff80;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    display: inline;
+    position: absolute;
+    top: 80px;
+    left: 0
+}
+
+#__26 {
+    color: #ffffff80;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%
+}
+
+#_32_386 {
+    text-align: left;
+    color: #ffffff80;
+    --f2w-order: 1;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#__27 {
+    color: #ffffff80;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%
+}
+
+#_32_387 {
+    text-align: left;
+    color: #ffffff80;
+    --f2w-order: 2;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    display: inline;
+    position: absolute;
+    top: 40px;
+    left: 0
+}
+
+#__28 {
+    color: #ffffff80;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%
+}
+
+#Group_667 {
+    --f2w-order: 1;
+    width: 129px;
+    height: 110px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#_32_389 {
+    text-align: left;
+    color: #ffffff80;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    display: inline;
+    position: absolute;
+    top: 80px;
+    left: 0
+}
+
+#__29 {
+    color: #ffffff80;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%
+}
+
+#_32_390 {
+    text-align: left;
+    color: #ffffff80;
+    --f2w-order: 1;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    display: inline;
+    position: absolute;
+    top: 40px;
+    left: 0
+}
+
+#__30 {
+    color: #ffffff80;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%
+}
+
+#_32_391 {
+    text-align: left;
+    color: #ffffff80;
+    --f2w-order: 2;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#__31 {
+    color: #ffffff80;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%
+}
+
+#Group_669 {
+    --f2w-order: 2;
+    width: 309px;
+    height: 110px;
+    position: absolute;
+    top: 0;
+    left: 473px
+}
+
+#_32_393 {
+    text-align: left;
+    color: #ffffff80;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    display: inline;
+    position: absolute;
+    top: 80px;
+    left: 0
+}
+
+#__32 {
+    color: #ffffff80;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%
+}
+
+#_32_394 {
+    text-align: left;
+    color: #ffffff80;
+    --f2w-order: 1;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#__33 {
+    color: #ffffff80;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%
+}
+
+#_32_395 {
+    text-align: left;
+    color: #ffffff80;
+    --f2w-order: 2;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    display: inline;
+    position: absolute;
+    top: 40px;
+    left: 0
+}
+
+#__34 {
+    color: #ffffff80;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%
+}
+
+#_13 {
+    --f2w-order: 5;
+    width: 293px;
+    height: 30px;
+    position: absolute;
+    top: 115px;
+    left: 195px
+}
+
+#_32_397 {
+    text-align: left;
+    color: #ffffff80;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#__35 {
+    color: #ffffff80;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%
+}
+
+#_8_0 {
+    --f2w-order: 9;
+    width: 1920px;
+    height: 837px;
+    position: absolute;
+    top: 1235px;
+    left: 0
+}
+
+#_14 {
+    --f2w-order: 0;
+    background-color: #3e3e3e;
+    border-radius: 0;
+    width: 1920px;
+    height: 837px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#_15 {
+    grid-column-gap: 10px;
+    --f2w-order: 1;
+    background-color: #967878;
+    border-radius: 15px;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    display: flex;
+    position: absolute;
+    top: 598px;
+    left: calc(557px + 50%)
+}
+
+#_32_401 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #fff;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    flex-shrink: 0;
+    width: max-content;
+    margin: 0;
+    font-family: TT Norms Pro;
+    font-size: 24px;
+    font-weight: 500;
+    display: inline;
+    position: relative
+}
+
+#__36 {
+    letter-spacing: .1px;
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 24px;
+    font-weight: 500
+}
+
+#free_icon_font_arrow_small_right_3916822_1 {
+    --f2w-order: 1;
+    border-radius: 0;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    position: relative;
+    overflow: hidden
+}
+
+#_01_align_center {
+    --f2w-order: 0;
+    width: 54.2%;
+    height: 47.6%;
+    position: absolute;
+    inset: 26.2% 25% 26.2% 20.8%
+}
+
+#Vector_6 {
+    --f2w-order: 0;
+    width: 100%;
+    height: 113.9%;
+    position: absolute;
+    inset: 0 6.2% -13.9% -6.2%
+}
+
+#_16 {
+    --f2w-order: 2;
+    width: 645px;
+    height: 38px;
+    position: absolute;
+    top: 515px;
+    left: 1080px
+}
+
+#_32_406 {
+    text-align: left;
+    color: #0000;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: 600.4px;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 44.6px
+}
+
+#__38 {
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400
+}
+
+#__39 {
+    color: #967878;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400
+}
+
+#Rectangle_12455 {
+    --f2w-order: 1;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 23.8px;
+    height: 24px;
+    position: absolute;
+    top: 7px;
+    left: 0
+}
+
+#_17 {
+    grid-row-gap: 4px;
+    --f2w-order: 3;
+    border-radius: 0;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    width: 660px;
+    padding: 10px 0 10px 15px;
+    display: flex;
+    position: absolute;
+    top: 454px;
+    left: calc(105px + 50%);
+    overflow: hidden
+}
+
+#_32_409 {
+    text-align: left;
+    color: #fff;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    flex-shrink: 0;
+    width: max-content;
+    margin: 0;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline;
+    position: relative
+}
+
+#__40 {
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400
+}
+
+#Line_3 {
+    --f2w-order: 1;
+    border: 0 solid #fff;
+    border-top-width: 1px;
+    flex-shrink: 0;
+    width: 630px;
+    height: 1px;
+    margin: 0;
+    position: relative
+}
+
+#_18 {
+    grid-row-gap: 4px;
+    --f2w-order: 4;
+    border-radius: 0;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px 15px;
+    display: flex;
+    position: absolute;
+    top: 393px;
+    left: calc(435px + 50%);
+    overflow: hidden
+}
+
+#_32_412 {
+    text-align: left;
+    color: #fff;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    flex-shrink: 0;
+    width: max-content;
+    margin: 0;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline;
+    position: relative
+}
+
+#__41 {
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400
+}
+
+#Line_3_0 {
+    --f2w-order: 1;
+    border: 0 solid #fff;
+    border-top-width: 1px;
+    flex-shrink: 0;
+    width: 300px;
+    height: 1px;
+    margin: 0;
+    position: relative
+}
+
+#_19 {
+    grid-row-gap: 4px;
+    --f2w-order: 5;
+    border-radius: 0;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px 15px;
+    display: flex;
+    position: absolute;
+    top: 393px;
+    left: calc(105px + 50%);
+    overflow: hidden
+}
+
+#_32_415 {
+    text-align: left;
+    color: #fff;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    flex-shrink: 0;
+    width: max-content;
+    margin: 0;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline;
+    position: relative
+}
+
+#__42 {
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400
+}
+
+#Line_3_1 {
+    --f2w-order: 1;
+    border: 0 solid #fff;
+    border-top-width: 1px;
+    flex-shrink: 0;
+    width: 300px;
+    height: 1px;
+    margin: 0;
+    position: relative
+}
+
+#_20 {
+    grid-row-gap: 4px;
+    --f2w-order: 6;
+    border-radius: 0;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px 15px;
+    display: flex;
+    position: absolute;
+    top: 332px;
+    left: calc(435px + 50%);
+    overflow: hidden
+}
+
+#_32_418 {
+    text-align: left;
+    color: #fff;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    flex-shrink: 0;
+    width: max-content;
+    margin: 0;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline;
+    position: relative
+}
+
+#__43 {
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400
+}
+
+#Line_3_2 {
+    --f2w-order: 1;
+    border: 0 solid #fff;
+    border-top-width: 1px;
+    flex-shrink: 0;
+    width: 300px;
+    height: 1px;
+    margin: 0;
+    position: relative
+}
+
+#_21 {
+    grid-row-gap: 4px;
+    --f2w-order: 7;
+    border-radius: 0;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px 15px;
+    display: flex;
+    position: absolute;
+    top: 332px;
+    left: calc(105px + 50%);
+    overflow: hidden
+}
+
+#_32_421 {
+    text-align: left;
+    color: #fff;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    flex-shrink: 0;
+    width: max-content;
+    margin: 0;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline;
+    position: relative
+}
+
+#__44 {
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400
+}
+
+#Line_3_3 {
+    --f2w-order: 1;
+    border: 0 solid #fff;
+    border-top-width: 1px;
+    flex-shrink: 0;
+    width: 300px;
+    height: 1px;
+    margin: 0;
+    position: relative
+}
+
+#_22 {
+    grid-column-gap: 10px;
+    --f2w-order: 8;
+    background-color: #967878;
+    border-radius: 15px;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    display: flex;
+    position: absolute;
+    top: 677px;
+    left: calc(50% - 205px)
+}
+
+#_32_424 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #fff;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    flex-shrink: 0;
+    width: max-content;
+    margin: 0;
+    font-family: TT Norms Pro;
+    font-size: 24px;
+    font-weight: 500;
+    display: inline;
+    position: relative
+}
+
+#__45 {
+    letter-spacing: .1px;
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 24px;
+    font-weight: 500
+}
+
+#_32_425 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #fff;
+    --f2w-order: 9;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    display: inline;
+    position: absolute;
+    top: 757px;
+    left: calc(50% - 765px)
+}
+
+#__46 {
+    letter-spacing: .1px;
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%
+}
+
+#_32_426 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #fff;
+    --f2w-order: 10;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    display: inline;
+    position: absolute;
+    top: 717px;
+    left: calc(50% - 765px)
+}
+
+#__47 {
+    letter-spacing: .1px;
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%
+}
+
+#_32_427 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #fff;
+    --f2w-order: 11;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: Abel;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    display: inline;
+    position: absolute;
+    top: 677px;
+    left: calc(50% - 762px)
+}
+
+#__48 {
+    letter-spacing: .1px;
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Abel;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%
+}
+
+#_23 {
+    --f2w-order: 12;
+    filter: drop-shadow(0 4px 20px #00000026);
+    border-radius: 15px;
+    width: 758px;
+    height: 325px;
+    position: absolute;
+    top: 332px;
+    left: 195px;
+    overflow: hidden
+}
+
+#__50 {
+    object-fit: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0
+}
+
+#_32_429 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #fff;
+    --f2w-order: 13;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    display: inline;
+    position: absolute;
+    top: 288px;
+    left: calc(50% - 765px)
+}
+
+#__51 {
+    letter-spacing: .1px;
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%
+}
+
+#_32_430 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #fff;
+    --f2w-order: 14;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    display: inline;
+    position: absolute;
+    top: 176px;
+    left: calc(50% - 160px)
+}
+
+#__52 {
+    letter-spacing: .1px;
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%
+}
+
+#_32_431 {
+    text-align: center;
+    letter-spacing: .1px;
+    color: #fff;
+    --f2w-order: 15;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: 755px;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    display: inline;
+    position: absolute;
+    top: 118px;
+    left: calc(50% - 377px)
+}
+
+#__53 {
+    letter-spacing: .1px;
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%
+}
+
+#_32_432 {
+    text-align: left;
+    letter-spacing: .2px;
+    color: #fff;
+    --f2w-order: 16;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 40px;
+    font-weight: 700;
+    display: inline;
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 93px)
+}
+
+#__54 {
+    letter-spacing: .2px;
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 40px;
+    font-weight: 700
+}
+
+#Frame {
+    --f2w-order: 10;
+    border-radius: 0;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 2119px;
+    left: calc(35px + 8.3%);
+    overflow: hidden
+}
+
+#Vector_7 {
+    --f2w-order: 0;
+    width: 83.3%;
+    height: 56.7%;
+    position: absolute;
+    inset: 23.4% 8.4% 19.9% 8.3%
+}
+
+#_32_435 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #ffffff80;
+    --f2w-order: 11;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    top: 2134px;
+    left: calc(104px + 8.3%)
+}
+
+#__55 {
+    letter-spacing: .1px;
+    color: #ffffff80;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500
+}
+
+#_24 {
+    --f2w-order: 12;
+    width: 1920px;
+    height: 157px;
+    position: absolute;
+    top: 0;
+    left: -7px
+}
+
+#_25 {
+    --f2w-order: 0;
+    background-color: #fff;
+    border-radius: 0;
+    width: 1920px;
+    height: 157px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#Line_153 {
+    --f2w-order: 1;
+    transform-origin: 0 0;
+    border: 0 solid #c5c5c5;
+    border-top-width: 1px;
+    width: 1920px;
+    height: 1px;
+    position: absolute;
+    top: 156px;
+    left: 0
+}
+
+#_26 {
+    --f2w-order: 2;
+    width: 706px;
+    height: 19px;
+    position: absolute;
+    top: 116px;
+    left: 607px
+}
+
+#_32_660 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #000;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 480px
+}
+
+#__56 {
+    letter-spacing: .1px;
+    color: #000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500
+}
+
+#_32_661 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #000;
+    --f2w-order: 1;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 633px
+}
+
+#__57 {
+    letter-spacing: .1px;
+    color: #000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500
+}
+
+#_32_662 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #000;
+    --f2w-order: 2;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 362px
+}
+
+#__58 {
+    letter-spacing: .1px;
+    color: #000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500
+}
+
+#_32_663 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #000;
+    --f2w-order: 3;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#__59 {
+    letter-spacing: .1px;
+    color: #000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500
+}
+
+#_32_664 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #000;
+    --f2w-order: 4;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 101px
+}
+
+#__60 {
+    letter-spacing: .1px;
+    color: #000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500
+}
+
+#_32_665 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #000;
+    --f2w-order: 5;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 243px
+}
+
+#__61 {
+    letter-spacing: .1px;
+    color: #000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500
+}
+
+#Line_152_0 {
+    --f2w-order: 3;
+    transform-origin: 0 0;
+    border: 0 solid #c5c5c5;
+    border-top-width: 1px;
+    width: 1920px;
+    height: 1px;
+    position: absolute;
+    top: 93px;
+    left: 0
+}
+
+#_27 {
+    --f2w-order: 4;
+    border-radius: 0;
+    width: 18px;
+    height: 24px;
+    position: absolute;
+    top: 40px;
+    left: 1707px
+}
+
+#Vector_8 {
+    --f2w-order: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: -.8% -1.1% .8% 1.1%
+}
+
+#_28 {
+    --f2w-order: 5;
+    border-radius: 0;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 40px;
+    left: 1643px;
+    overflow: hidden
+}
+
+#Vector_9 {
+    --f2w-order: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0 -.1% 0 .1%
+}
+
+#_29 {
+    --f2w-order: 6;
+    transform-origin: 0 0;
+    border-radius: 0;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 64px;
+    left: 1579px;
+    overflow: hidden;
+    transform: rotate(-180deg) scaleX(-1)
+}
+
+#Vector_10 {
+    --f2w-order: 0;
+    transform-origin: 0 0;
+    width: 100%;
+    height: 91.7%;
+    position: absolute;
+    inset: 95.7% 0 -87.4%;
+    transform: rotate(-180deg) scaleX(-1)
+}
+
+#_30 {
+    grid-column-gap: 10px;
+    --f2w-order: 7;
+    background-color: #462121;
+    border-radius: 15px;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    display: flex;
+    position: absolute;
+    top: 32px;
+    left: 1388px
+}
+
+#_32_674 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #fff;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    flex-shrink: 0;
+    width: max-content;
+    margin: 0;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline;
+    position: relative
+}
+
+#__62 {
+    letter-spacing: .1px;
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500
+}
+
+#_31 {
+    --f2w-order: 8;
+    width: 177px;
+    height: 24px;
+    position: absolute;
+    top: 40px;
+    left: 1171px
+}
+
+#_32_676 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #000;
+    --f2w-order: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    top: 2px;
+    left: 34px
+}
+
+#__63 {
+    letter-spacing: .1px;
+    color: #000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 500
+}
+
+#free_icon_font_phone_call_5074539_1 {
+    --f2w-order: 1;
+    border-radius: 0;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden
+}
+
+#Vector_11 {
+    --f2w-order: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0
+}
+
+#_32 {
+    --f2w-order: 9;
+    border: 1px solid #c5c5c5;
+    border-radius: 15px;
+    width: 600px;
+    height: 44px;
+    position: absolute;
+    top: 30px;
+    left: 505px
+}
+
+#_33 {
+    --f2w-order: 0;
+    width: 53px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    left: 545px
+}
+
+#Rectangle_12536 {
+    --f2w-order: 0;
+    background-color: #462121;
+    border-radius: 0 14px 14px 0;
+    width: 53px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#free_icon_font_search_location_7928283_1 {
+    --f2w-order: 1;
+    border-radius: 0 15px 15px 0;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    overflow: hidden
+}
+
+#Vector_12 {
+    --f2w-order: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0
+}
+
+#_32_684 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #c5c5c5;
+    --f2w-order: 1;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline;
+    position: absolute;
+    top: 11.5px;
+    left: 14px
+}
+
+#__64 {
+    letter-spacing: .1px;
+    color: #c5c5c5;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: TT Norms Pro;
+    font-size: 16px;
+    font-weight: 400
+}
+
+#Frame_0 {
+    --f2w-order: 13;
+    border-radius: 0;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 22px;
+    left: calc(25px + 8.3%);
+    overflow: hidden
+}
+
+#Vector_13 {
+    --f2w-order: 0;
+    width: 83.3%;
+    height: 56.7%;
+    position: absolute;
+    inset: 23.4% 8.4% 19.9% 8.3%
+}
+
+#_32_687 {
+    text-align: left;
+    letter-spacing: .1px;
+    color: #000;
+    --f2w-order: 14;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: max-content;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    top: 37px;
+    left: calc(94px + 8.3%)
+}
+
+#__65 {
+    letter-spacing: .1px;
+    color: #000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500
+}
+
+@media (max-width: 767px) {
+    /* Основной контейнер */
+    #_0 {
+        /*width: 100%;*/
+        /*min-width: 0;*/
+        max-width: 100%;
+        min-height: auto;
+        max-height: none;
+        /*overflow: visible;*/
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #_1 {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    #_8_0 {
+        --f2w-order: 9;
+        width: 1920px;
+        height: 837px;
+        position: absolute;
+        top: 1235px;
+        left: 0;
+        display: none;
+    }
+
+    /* Шапка */
+    #_24 {
+        width: 100%;
+        height: auto;
+        left: 0;
+    }
+
+    #_25 {
+        width: 100%;
+    }
+
+    #_26 {
+        width: 100%;
+        left: 0;
+        top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+
+    #_32_660, #_32_661, #_32_662, #_32_663, #_32_664, #_32_665 {
+        position: relative;
+        left: auto;
+        top: auto;
+        margin: 5px 10px;
+    }
+
+    /* Поиск */
+    #_32 {
+        width: 80%;
+        left: 10%;
+        top: 20px;
+    }
+
+    #_33 {
+        left: auto;
+        right: 0;
+    }
+
+    /* Телефон и кнопка */
+    #_31 {
+        left: 10%;
+        top: 160px;
+        width: 80%;
+    }
+
+    #_30 {
+        left: 10%;
+        top: 200px;
+    }
+
+    /* Контент */
+    #_6 {
+        width: 80%;
+        left: 10%;
+        top: 250px;
+        height: 400px;
+    }
+
+    #image_51 {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    #_5 {
+        width: 80%;
+        left: 10%;
+        top: 700px;
+        height: auto;
+    }
+
+    #_32_196, #_32_197, #_32_198 {
+        left: 0;
+        width: 100%;
+    }
+
+    /* Кнопки */
+    #_4 {
+        left: 10%;
+        top: 1000px;
+        width: 80%;
+    }
+
+    #_3 {
+        left: 10%;
+        top: 1060px;
+        width: 80%;
+    }
+
+    /* Текст под кнопками */
+    #_2 {
+        width: 80%;
+        left: 10%;
+        top: 1140px;
+        height: auto;
+    }
+
+    #_32_187, #_32_188 {
+        left: 0;
+        position: relative;
+    }
+
+    #Line_152 {
+        width: 100%;
+    }
+
+    /* Длинный текст */
+    #_32_185 {
+        width: 80%;
+        left: 10%;
+        top: 1200px;
+    }
+
+    /* Секция с изображением */
+    #_8_0 {
+        width: 100%;
+        top: 1400px;
+        height: auto;
+    }
+
+    #_14 {
+        width: 100%;
+        height: auto;
+    }
+
+    #_23 {
+        width: 80%;
+        left: 10%;
+        top: 1500px;
+    }
+
+    #_32_431 {
+        width: 100%;
+        left: 0;
+    }
+
+    /* Нижние элементы */
+    #_15 {
+        left: 10%;
+        top: 1900px;
+        width: 80%;
+    }
+
+    #_22 {
+        left: 10%;
+        top: 1960px;
+        width: 80%;
+    }
+
+    /* Футер */
+    #_7_0 {
+        width: 100%;
+        top: 2100px;
+    }
+
+    #_8 {
+        width: 100%;
+    }
+
+    #_12 {
+        width: 80%;
+        left: 10%;
+        height: auto;
+    }
+
+    #Frame_0 {
+        --f2w-order: 13;
+        border-radius: 0;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 22px;
+        left: calc(25px + 8.3%);
+        overflow: hidden;
+        display: none;
+    }
+
+    #_32_687 {
+        text-align: left;
+        letter-spacing: .1px;
+        color: #000;
+        --f2w-order: 14;
+        -webkit-background-clip: text;
+        background-clip: text;
+        width: max-content;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 500;
+        display: inline;
+        position: absolute;
+        top: 37px;
+        left: calc(94px + 8.3%);
+        display: none;
+    }
+
+    #_28 {
+        --f2w-order: 5;
+        border-radius: 0;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 40px;
+        left: 1643px;
+        overflow: hidden;
+        display: none;
+    }
+
+    #_29 {
+        --f2w-order: 6;
+        transform-origin: 0 0;
+        border-radius: 0;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 64px;
+        left: 1579px;
+        overflow: hidden;
+        transform: rotate(-180deg) scaleX(-1);
+        display: none;
+    }
+
+    #Group_667, #Group_668, #Group_669 {
+        display: none;
+        width: 100%;
+        left: 0;
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    #__56 {
+        letter-spacing: .1px;
+        color: #000;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-family: TT Norms Pro;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    #__57 {
+        letter-spacing: .1px;
+        color: #000;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-family: TT Norms Pro;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    #__58 {
+        letter-spacing: .1px;
+        color: #000;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-family: TT Norms Pro;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    #__59 {
+        letter-spacing: .1px;
+        color: #000;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-family: TT Norms Pro;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    #__60 {
+        letter-spacing: .1px;
+        color: #000;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-family: TT Norms Pro;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    #__61 {
+        letter-spacing: .1px;
+        color: #000;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-family: TT Norms Pro;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    #__0 {
+        letter-spacing: .1px;
+        color: #000;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-family: TT Norms Pro;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 150%;
+    }
+}
